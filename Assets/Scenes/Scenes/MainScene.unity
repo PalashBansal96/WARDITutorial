@@ -194,7 +194,7 @@ GameObject:
   - component: {fileID: 498336072}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -210,7 +210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5f65c79238fb4ddaa81866ecc10f191, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _acceleration: 200
+  _acceleration: 180
+  _jumpImpulse: 250
 --- !u!135 &498336068
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -383,7 +384,7 @@ GameObject:
   - component: {fileID: 774948607}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
